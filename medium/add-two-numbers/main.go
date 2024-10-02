@@ -51,3 +51,7 @@ func addTwoNumbers(l1 *ListNode, l2 *ListNode) *ListNode {
 
 	return resultHead
 }
+
+func main() {
+	addTwoNumbers(nil, nil)
+}
