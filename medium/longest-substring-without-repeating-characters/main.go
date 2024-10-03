@@ -1,5 +1,7 @@
 package main
 
+// runtime: 127ms beats 17.22%
+// memory: 9.39MB beats 6.98%
 func lengthOfLongestSubstring(s string) int {
 	max := nUnique(s)
 
